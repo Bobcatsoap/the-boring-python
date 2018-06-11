@@ -2,7 +2,7 @@ from PIL import Image
 from PIL import ImageDraw
 import sys, os, imghdr
 
-ASCII_CHARS = ['.', ',', ':', ';', '^', '/', '=', '+', '*', 'a', 'g', '%', '$', '@', '&']
+ASCII_CHARS = ['.', ',', ':', ';', '~', '^', '=', '*', 'a', 'g', 'M', '%', '#', '$', '&', '@']
 IMAGE_EXTENSION = ['png', 'jpg', 'jpeg']
 ASCII_CHARS_reverse = ASCII_CHARS[::-1]
 images = []
@@ -10,6 +10,8 @@ images = []
 
 # 缩放图片
 def scale_image(image, width):
+    if (width == 0):
+        return image
     (origin_width, origin_height) = image.size
     height = int(width * origin_height / float(origin_width))
 
