@@ -16,3 +16,13 @@
 
 ![image](https://raw.githubusercontent.com/Bobcatsoap/the-boring-python/master/GIF.gif)
 
+## climbing_stairs.py ：爬楼梯算法的较短实现
+
+### 使用命令行参数指定台阶数：
+#### 代码:
+![image](https://github.com/Bobcatsoap/the-boring-python/blob/develop/climbing_stairs_code_image.png)
+#### 输出:
+![image](https://github.com/Bobcatsoap/the-boring-python/blob/develop/climbing_stairs_output_image.png)
+
+## move_k.py :将 list 元素向右移动 K 位的单行实现
+
