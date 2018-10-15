@@ -16,3 +16,9 @@
 
 ![image](https://raw.githubusercontent.com/Bobcatsoap/the-boring-python/master/GIF.gif)
 
+## mahjong_win.py ：麻将判胡算法
+
+![image](https://github.com/Bobcatsoap/the-boring-python/blob/master/mahjong_win_input.png)
+
+![image](https://github.com/Bobcatsoap/the-boring-python/blob/master/mahjong_win_result.png)
+
