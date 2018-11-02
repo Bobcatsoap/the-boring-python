@@ -11,5 +11,5 @@ def fib(max):
 
 
 myTurtle = turtle.Turtle()
-fib(13)
+fib(15)
 turtle.getscreen()._root.mainloop()
